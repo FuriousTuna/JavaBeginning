@@ -1,4 +1,4 @@
-package hapterTwo;
+package chapterTwo;
 
 public class HelloWorld {
     public static void main(String[] args) {
