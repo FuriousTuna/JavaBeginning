@@ -2,13 +2,13 @@ package chapterFour;
 
 public class ThirdTask {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5};
+        int[] arr = {1,2,3,4,5,6,7};
 
-        int c = 0;
+        int c;
         c = arr[0];
         arr[0] = arr[arr.length-1];
-        arr[4] = c;
+        arr[arr.length-1] = c;
 
-        System.out.println(arr[arr.length-3] + arr[arr.length-1]);
+        System.out.println(arr[arr.length/2] + arr[0]);
     }
 }
