@@ -17,7 +17,7 @@ public class TenthTask {
         }
 
         System.out.println("Первая строка матрицы:");
-        for (int i = 0; i < matrix.length; i++) {
+        for (int i = 0; i < matrix[0].length; i++) {
             System.out.print(3 * matrix[0][i] + " ");
         }
             System.out.println();
