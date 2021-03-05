@@ -8,14 +8,15 @@ public class TwelvthTask {
         // где уже имеется строка, и где со сканера вводится строка
 
         // #1
-        // String str = sc.nextLine();
+//         String str = "I like Java!!!";
 
         // #2
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
 
         if (str.contains("Java") && str.startsWith("I like") && str.endsWith("!!!")) {
-            System.out.println(str.replaceAll("a", "o").substring(7, 11));
+            System.out.println(str.toUpperCase());
         }
+        System.out.println(str.replaceAll("a", "o").substring(7, 11));
     }
 }

@@ -14,7 +14,7 @@ public class EleventhTask {
 
         System.out.print("Большее число: ");
 
-        System.out.println(Math.max(Integer.parseInt(val1), val2));
+        System.out.println(Math.max(Double.parseDouble(val1), val2)); // так как не указано, в каком формате выводить первое число, вывожу double
         System.out.print("Меньшее число: ");
         System.out.println(Math.min(Double.parseDouble(val1), val2));
 
